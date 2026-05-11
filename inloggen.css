@@ -1,0 +1,95 @@
+/* De basis instellingen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('image/eredivisie-logo-darkblue-2026.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* De container die alles centreert */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Het witte/transparante blok */
+.login-box {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparant */
+    backdrop-filter: blur(10px); /* Maakt de achtergrond wazig achter het blok */
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+.login-box h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+/* De input velden */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 1rem;
+}
+
+/* De inlogknop */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #003399; /* Een diepblauwe kleur passend bij Eredivisie */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0055ff;
+    transform: translateY(-2px);
+}
+
+/* De registratie link */
+.register-link {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.register-link a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
